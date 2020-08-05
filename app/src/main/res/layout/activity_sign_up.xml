@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SignUpActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register User"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Name"
+                android:hint="Enter Name"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Email"
+                android:hint="Enter Email"
+                android:inputType="textEmailAddress"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/PhoneNo"
+                android:hint="Enter Phone No"
+                android:inputType="phone"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/Password"
+                android:hint="Enter Password"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/City"
+                android:hint="Enter City"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/Address"
+                android:hint="Enter Address"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/Role"
+                android:hint="Enter Role"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Proimage"
+                android:hint="Proimage"
+                android:gravity="center_vertical"
+                android:textSize="20dp">
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sign Up"
+                android:onClick="SignUpClick">
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Registered Respose"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ResposeMessage"
+                android:textSize="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
